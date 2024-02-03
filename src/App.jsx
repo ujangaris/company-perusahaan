@@ -1,18 +1,42 @@
-import { useState } from "react";
-
+import { useEffect, useRef, useState } from "react";
+import backgroundImage from "../src/assets/Hero-image.png";
 import "./App.css";
 
 function App() {
   // Hamburger
   const [isHamburgerActive, setHamburgerActive] = useState(false);
+  // stiky
+  const [isNavbarFixed, setNavbarFixed] = useState(false);
   const toggleHamburger = () => {
     setHamburgerActive(!isHamburgerActive);
   };
 
+  // logic stiky
+  const headerRef = useRef();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setNavbarFixed(true);
+      } else {
+        setNavbarFixed(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
       {/* Navbar Section */}
-      <header className="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <header
+        className={`bg-transparent absolute top-0 left-0 w-full flex items-center z-10 ${
+          isNavbarFixed ? "navbar-fixed" : ""
+        }`}
+      >
         <div className="container">
           <div className="flex items-center justify-between relative">
             <div className="px-4 flex items-center">
@@ -46,6 +70,10 @@ function App() {
         </div>
       </header>
       {/* Akhir Navbar Section */}
+
+      {/* akhir carosel section */}
+      <div className="bg-green-500 bg-center h-screen mt-16"></div>
+      {/* akhir carosel section */}
     </>
   );
 }
