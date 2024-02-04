@@ -1,4 +1,5 @@
 import "./App.css";
+import { Company } from "./components/Company";
 
 import { Destination } from "./components/Destination";
 import { Header } from "./components/Header";
@@ -16,7 +17,9 @@ function App() {
       {/* Destination section */}
       <Destination />
       {/* akhir Destination section */}
-
+      {/* Company section */}
+      <Company />
+      {/* Akhir Company section */}
       <div className="mt-80"></div>
     </>
   );
