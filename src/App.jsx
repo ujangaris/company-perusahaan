@@ -1,4 +1,6 @@
 import "./App.css";
+
+import { Destination } from "./components/Destination";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 
@@ -6,14 +8,16 @@ function App() {
   return (
     <>
       {/* Navbar Section */}
-
       <Header />
       {/* Akhir Navbar Section */}
       {/*  Hero section */}
       <Hero />
       {/* akhir Hero section */}
-      <div className="bg-[#29BF08] opacity-30 bg-center h-screen"></div>
-      {/* akhir carosel section */}
+      {/* Destination section */}
+      <Destination />
+      {/* akhir Destination section */}
+
+      <div className="mt-80"></div>
     </>
   );
 }
