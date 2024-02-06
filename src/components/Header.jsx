@@ -40,7 +40,7 @@ export const Header = () => {
           isNavbarFixed ? "navbar-fixed" : "bg-white"
         }`}
       >
-        <div className="container mx-auto max-w-7xl flex justify-center mr-32 md:mr-48 lg:mr-0">
+        <div className="container lg:mx-auto max-w-7xl flex justify-center mr-32 md:mr-48 ">
           <div className="flex justify-between md:items-center p-6 gap-x-2 xl:gap-x-16">
             <div className="flex">
               <img src={logo} alt="" className="w-full  h-10 md:h-auto" />

@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply bg-[#f1f4f5];
+}
 .hamburger-line {
   @apply w-[30px] h-[2px] my-2 block bg-black;
 }

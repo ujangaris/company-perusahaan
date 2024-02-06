@@ -39,7 +39,7 @@ export const Company = () => {
               <img
                 src={video} // Ganti dengan path gambar thumbnail lokal yang sesuai
                 alt="Video Thumbnail"
-                className="w-full border-4 border-slate-500 shadow-lg rounded-lg"
+                className="w-full border-4 border-slate-500 shadow-lg rounded-3xl"
               />
               <div className="play-button absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 {/* Tambahkan ikon play atau teks play di sini */}
