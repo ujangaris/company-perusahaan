@@ -71,19 +71,19 @@ export const Company = () => {
       {/* akhir video section */}{" "}
       <div className=" destination h-[900px] md:[500px] lg:h-[800px] xl:h-[1200px] bg-black">
         <div className="container mx-auto ">
-          <div className="grid md:grid-cols-2 mx-7 lg:mx-20 xl:mx-32 lg:gap-10">
+          <div className="grid md:grid-cols-2 mx-7 lg:mx-20 xl:mx-32 gap-14 lg:gap-10">
             <div className="mt-36 md:mt-[450px] lg:mt-80 xl:mt-[600px]">
-              <h1 className="text-xl lg:text-4xl  font-semibold text-white mb-2 ">
+              <h1 className="text-xl lg:text-4xl  font-semibold text-white mb-5 md:mb-2 ">
                 Companies That <br />
                 Use Bina Dinamita Rama
               </h1>
-              <p className="text-sm lg:text-base xl:mt-10 font-semibold text-white">
+              <p className="text-sm lg:text-base  xl:mt-10 font-semibold text-white">
                 selects graduates from accredited Tourist Colleges in Indonesia
                 who have worked in 4 - 5 stars Hotels and Fine Dinning
                 Restourants dealing with foreign guest
               </p>
             </div>
-            <div className="grid grid-cols-3  gap-2 lg:gap-0 mt-10 md:mt-[450px] lg:mt-80 xl:mt-[600px]">
+            <div className="grid grid-cols-3  gap-2 lg:gap-0 mt-2 md:mt-[450px] lg:mt-80 xl:mt-[600px] px-3">
               <div className="">
                 <img src={logoIbis} alt="logo-ibis" className="lg:ml-11" />
               </div>

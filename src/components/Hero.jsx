@@ -10,7 +10,7 @@ export const Hero = () => {
 
         <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 flex lg:h-screen justify-center items-center lg:px-8">
           <div className="max-w-8xl  text-center ltr:sm:text-left rtl:sm:text-right">
-            <h1 className="lg:text-8xl md:text-6xl text-5xl text-white font-extrabold ">
+            <h1 className="lg:text-8xl md:text-6xl text-3xl text-white font-extrabold ">
               Balai Latihan Kerja
               <strong className="block font-extrabold text-[#29BF08]">
                 {" "}

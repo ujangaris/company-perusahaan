@@ -25,7 +25,7 @@ var settings = {
       breakpoint: 1024,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         infinite: true,
         dots: true,
       },
@@ -34,7 +34,7 @@ var settings = {
       breakpoint: 769,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         infinite: true,
         dots: true,
       },
@@ -43,7 +43,7 @@ var settings = {
       breakpoint: 600,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         initialSlide: 2,
       },
     },
@@ -59,27 +59,27 @@ var settings = {
 export const Destination = () => {
   return (
     <>
-      <div className="destination h-[900px] lg:h-[1200px]">
+      <div className="destination h-[800px] lg:h-[1050px]">
         <div className="container mx-auto">
           <div className="w-full">
             <div className="max-w-xl mx-auto text-center mb-10 ">
-              <h4 className="font-bold text-5xl text-[#927F7F]  pt-20">
+              <h4 className="font-bold text-3xl md:text-5xl text-[#927F7F]  pt-20">
                 Destination
               </h4>
-              <p className="pt-5 text-[#717171]">
+              <p className="pt-5 text-xs md:text-base text-[#717171]">
                 Countries collaborating with us.
               </p>
             </div>
           </div>
           <div className="w-3/4 m-auto">
-            <div className="mt-20">
+            <div className="mt-">
               <Slider {...settings}>
                 {data.map((d) => (
                   <div
                     key={d.name}
                     className="w-full flex flex-wrap justify-center"
                   >
-                    <div className="mb-12 p-4">
+                    <div className="mb-12 ">
                       <div className="group relative rounded-md overflow-hidde flex justify-center">
                         <img
                           src={d.img}
