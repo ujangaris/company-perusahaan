@@ -1,4 +1,5 @@
 import { About } from "./components/About";
+import { Client } from "./components/Client";
 import { Company } from "./components/Company";
 
 import { Destination } from "./components/Destination";
@@ -33,6 +34,9 @@ function App() {
       {/* Info section */}
       <Info />
       {/* akhir Info section */}
+      {/* Client section */}
+      <Client />
+      {/* akhir Client section */}
       {/* Footer section */}
       <Footer />
       {/* akhir Footer section */}

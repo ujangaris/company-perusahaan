@@ -7,16 +7,16 @@ import { FiArrowUpRight } from "react-icons/fi";
 export const Info = () => {
   return (
     <>
-      <div className="info">
-        <div className="max-w-xl mx-auto text-center mb-16">
-          <h4 className="font-bold text-3xl md:text-5xl text-[#927F7F]  pt-20">
+      <div className="info mt-20">
+        <div className="max-w-xl mx-auto text-center mb-10">
+          <h4 className="font-bold text-3xl md:text-5xl text-[#927F7F]  ">
             Info
           </h4>
           <p className="pt-2  md:text-base text-xs text-[#717171] px-10 ">
             News & Event
           </p>
         </div>
-        <div className=" flex flex-wrap mb-52 max-w-6xl mx-auto px-10 xl:px-4">
+        <div className=" flex flex-wrap  max-w-6xl mx-auto px-10 xl:px-4">
           <div className="w-full  px-2  md:w-1/2 lg:w-1/3">
             <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
               <img src={imageNews1} alt="news" className="w-full" />

@@ -5,7 +5,7 @@ export const ContactSection = () => {
     <>
       {/* Contact section */}
 
-      <section className="contact mx-auto px-10 ">
+      <section className="contact mx-auto px-10 -mt-[420px] md:-mt-[480px]">
         <div className="xl:max-w-6xl mx-auto h-[600px] lg:h-[550px] bg-[#29BF08]  rounded-2xl z-10 relative">
           <div className="pt-10 mt-10">
             <h1 className="text-3xl md:text-6xl font-semibold text-white text-center">

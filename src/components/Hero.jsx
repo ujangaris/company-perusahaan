@@ -10,17 +10,16 @@ export const Hero = () => {
 
         <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 flex lg:h-screen justify-center items-center lg:px-8">
           <div className="max-w-8xl  text-center ltr:sm:text-left rtl:sm:text-right">
-            <h1 className="lg:text-8xl md:text-6xl text-3xl text-white font-extrabold ">
-              Balai Latihan Kerja
+            <h1 className="lg:text-5xl xl:text-8xl md:text-6xl text-4xl text-white font-extrabold ">
+              Lembaga Pelatihan Kerja
               <strong className="block font-extrabold text-[#29BF08]">
-                {" "}
-                Luar Negri{" "}
+                Binadinamitrarama
               </strong>
             </h1>
 
-            <p className="mt-4 mx-auto max-w-lg sm:text-xl/relaxed text-[#D9D9D9]">
-              We are ready to cooperate <br />
-              and become your patner
+            <p className="mt-4 font-bold text-base md:text-2xl mx-auto max-w-lg sm:text-xl/relaxed text-white uppercase">
+              Pt. Bina<span className="text-red-500">dinamita</span>rama <br />
+              Perusahaan Penempatan Pekerja Imigran Indonesia
             </p>
 
             <div className="mt-8 flex flex-wrap md:gap-x-10 gap-x-4 gap-y-4 justify-center items-center text-center">
