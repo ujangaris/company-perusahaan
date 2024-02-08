@@ -5,6 +5,7 @@ import { Destination } from "./components/Destination";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
+import { We_do } from "./components/We_do";
 
 function App() {
   return (
@@ -25,7 +26,9 @@ function App() {
       <About />
       {/* akhir About section */}
       {/* Footer section */}
-
+      {/*  We do section */}
+      <We_do />
+      {/* akhir We do section */}
       <Footer />
       {/* akhir Footer section */}
       {/* <div className="mt-80"></div> */}
