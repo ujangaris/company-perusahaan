@@ -5,6 +5,7 @@ import { Destination } from "./components/Destination";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
+import { Info } from "./components/Info";
 import { We_do } from "./components/We_do";
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
       <We_do />
       {/* akhir We do section */}
       {/* Info section */}
-
+      <Info />
       {/* akhir Info section */}
       {/* Footer section */}
       <Footer />
