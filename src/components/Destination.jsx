@@ -83,7 +83,7 @@ export const Destination = () => {
                       <div className="group relative rounded-md overflow-hidde flex justify-center">
                         <img
                           src={d.img}
-                          alt="jepang"
+                          alt={d.name}
                           className=" w-[300px] h-[320px] xl:w-[300px] xl:h-[320px] border-4 group-hover:border-rose-500 border-white rounded-3xl shadow-2xl"
                         />
                         <button className="text-sm  md:text-base font-bold py-2 px-3 md:py-2 md:px-6 group-hover:bg-rose-500 bg-[#29BF08] rounded-full text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-24 md:-translate-y-1/2 xl:mt-28 lg:mt-20 md:mt-20 ">
