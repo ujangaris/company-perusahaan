@@ -25,10 +25,14 @@ function App() {
       {/* About section */}
       <About />
       {/* akhir About section */}
-      {/* Footer section */}
+
       {/*  We do section */}
       <We_do />
       {/* akhir We do section */}
+      {/* Info section */}
+
+      {/* akhir Info section */}
+      {/* Footer section */}
       <Footer />
       {/* akhir Footer section */}
       {/* <div className="mt-80"></div> */}

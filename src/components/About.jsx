@@ -11,7 +11,7 @@ export const About = () => {
             <h4 className="font-bold text-3xl md:text-5xl text-[#927F7F]  pt-20">
               About
             </h4>
-            <p className="pt-5 text-xs md:text-base text-xs text-[#717171] px-10 mb">
+            <p className="pt-5  md:text-base text-xs text-[#717171] px-10 mb">
               We have been working with some Fortune 500+ clients
             </p>
           </div>

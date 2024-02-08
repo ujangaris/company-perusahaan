@@ -4,7 +4,7 @@ export const We_do = () => {
   return (
     <>
       {/* We do section */}
-      <section className="we-do w-screen px-4 bg-black   mx-auto h-[610px] md:h-[400px] xl:h-[580px] mt-20 lg:mb-52">
+      <section className="we-do w-screen px-4 bg-black   mx-auto h-[610px] md:h-[400px] xl:h-[580px] mt-20 ">
         <div className="max-w-6xl grid grid-cols-1 md:grid-cols-2 mx-auto">
           <div className="left-we-do mt-10 md:mt-20 px-10 lg:px-20 ">
             <h1 className="text-2xl lg:text-4xl font-bold text-white mb-10">
