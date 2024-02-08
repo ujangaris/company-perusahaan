@@ -3,15 +3,15 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const data = [
-  { img: "../src/assets/jepang.png", name: "Jepang" },
-  { img: "../src/assets/paris.png", name: "Paris" },
-  { img: "../src/assets/indonesia.png", name: "Indonesia" },
-  { img: "../src/assets/jepang.png", name: "Jepang" },
-  { img: "../src/assets/paris.png", name: "Paris" },
-  { img: "../src/assets/indonesia.png", name: "Indonesia" },
-  { img: "../src/assets/jepang.png", name: "Jepang" },
-  { img: "../src/assets/paris.png", name: "Paris" },
-  { img: "../src/assets/indonesia.png", name: "Indonesia" },
+  { img: "../../src/assets/jepang.png", name: "Jepang" },
+  { img: "../../src/assets/paris.png", name: "Paris" },
+  { img: "../../src/assets/indonesia.png", name: "Indonesia" },
+  { img: "../../src/assets/jepang.png", name: "Jepang" },
+  { img: "../../src/assets/paris.png", name: "Paris" },
+  { img: "../../src/assets/indonesia.png", name: "Indonesia" },
+  { img: "../../src/assets/jepang.png", name: "Jepang" },
+  { img: "../../src/assets/paris.png", name: "Paris" },
+  { img: "../../src/assets/indonesia.png", name: "Indonesia" },
 ];
 var settings = {
   dots: true,
