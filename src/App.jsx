@@ -21,8 +21,11 @@ function App() {
       {/* Company section */}
       <Company />
       {/* Akhir Company section */}
-
+      {/* About section */}
+      <About />
+      {/* akhir About section */}
       {/* Footer section */}
+
       <Footer />
       {/* akhir Footer section */}
       {/* <div className="mt-80"></div> */}

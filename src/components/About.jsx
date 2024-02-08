@@ -7,7 +7,7 @@ export const About = () => {
     <>
       <div className="about lg:mb-52 ">
         <div className="w-full max-w-6xl mx-auto">
-          <div className="max-w-xl mx-auto text-center mb-20 ">
+          <div className="max-w-xl mx-auto text-center mb-10 md:mb-20 ">
             <h4 className="font-bold text-3xl md:text-5xl text-[#927F7F]  pt-20">
               About
             </h4>
@@ -16,7 +16,7 @@ export const About = () => {
             </p>
           </div>
         </div>
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 px-10 md:px-14  gap-x-10 pb-10 gap-y-4">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 px-10 md:px-20  gap-x-10 pb-10 gap-y-4">
           <div className="left order-2">
             <img src={imageAbout1} alt="" />
           </div>
