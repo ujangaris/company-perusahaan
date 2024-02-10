@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import backgroundImage from "../../src/assets/Hero-image.png";
+// import backgroundImage from "../../src/assets/Hero-image.png";
 import logo from "../../src/assets/logo-perusahaan.png";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   // Hamburger
@@ -48,20 +49,20 @@ export const Header = () => {
             <div className="lg:block hidden">
               <ul className="flex items-center justify-center gap-x-4">
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to="/"
                     className="text-base font-medium text-slate-900 hover:text-green-500"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to="/about"
                     className="text-base font-medium text-slate-500 hover:text-green-500"
                   >
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a
@@ -157,20 +158,20 @@ export const Header = () => {
                 >
                   <ul className=" lg:flex gap-x-4 justify-center">
                     <li className="group">
-                      <a
-                        href="#Home"
+                      <Link
+                        href="/"
                         className="md:text-xs  text-dark py-2  mx-8 lg:mx-0 flex group-hover:text-green-500"
                       >
                         Home
-                      </a>
+                      </Link>
                     </li>
                     <li className="group">
-                      <a
-                        href="#"
+                      <Link
+                        to="/about"
                         className="md:text-xs text-dark py-2 mx-8 lg:mx-0  flex group-hover:text-green-500"
                       >
                         About
-                      </a>
+                      </Link>
                     </li>
                     <li className="group">
                       <a
