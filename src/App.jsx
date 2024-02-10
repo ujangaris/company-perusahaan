@@ -3,7 +3,7 @@ import { Client } from "./components/Client";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { About } from "./components/About/About";
+import { AboutPage } from "./components/About/AboutPage";
 function App() {
   return (
     <>
@@ -13,7 +13,7 @@ function App() {
         {/* Akhir Navbar Section */}
         <Routes>
           <Route path="/" element={<Home />} />
-          
+          <Route path="/about" element={<AboutPage />} />
         </Routes>
         {/* Client section */}
         <Client />
