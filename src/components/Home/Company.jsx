@@ -1,8 +1,8 @@
 import React from "react";
-import logoAW from "../../src/assets/icon-aw.png";
-import logoIbis from "../../src/assets/icon-hotel-ibis.png";
-import logoKeyta from "../../src/assets/icon-keyta.png";
-import video from "../../src/assets/vodeo.png";
+import logoAW from "../../../src/assets/icon-aw.png";
+import logoIbis from "../../../src/assets/icon-hotel-ibis.png";
+import logoKeyta from "../../../src/assets/icon-keyta.png";
+import video from "../../../src/assets/vodeo.png";
 import YouTube from "react-youtube";
 import { useState } from "react";
 export const Company = () => {

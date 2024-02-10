@@ -1,7 +1,7 @@
 import React from "react";
-import imageAbout1 from "../../src/assets/image-about-1.png";
-import imageAbout2 from "../../src/assets/image-about-2.png";
-import imageAbout3 from "../../src/assets/image-about-3.png";
+import imageAbout1 from "../../../src/assets/image-about-1.png";
+import imageAbout2 from "../../../src/assets/image-about-2.png";
+import imageAbout3 from "../../../src/assets/image-about-3.png";
 export const About = () => {
   return (
     <>

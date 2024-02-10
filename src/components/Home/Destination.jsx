@@ -2,20 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import jepang from "../../src/assets/jepang.png";
-import paris from "../../src/assets/paris.png";
-import indonesia from "../../src/assets/indonesia.png";
-// const data = [
-//   { img: "../../src/assets/jepang.png", name: "Jepang" },
-//   { img: "../../src/assets/paris.png", name: "Paris" },
-//   { img: "../../src/assets/indonesia.png", name: "Indonesia" },
-//   { img: "../../src/assets/jepang.png", name: "Jepang" },
-//   { img: "../../src/assets/paris.png", name: "Paris" },
-//   { img: "../../src/assets/indonesia.png", name: "Indonesia" },
-//   { img: "../../src/assets/jepang.png", name: "Jepang" },
-//   { img: "../../src/assets/paris.png", name: "Paris" },
-//   { img: "../../src/assets/indonesia.png", name: "Indonesia" },
-// ];
+import jepang from "../../../src/assets/jepang.png";
+import paris from "../../../src/assets/paris.png";
+import indonesia from "../../../src/assets/indonesia.png";
+
 var settings = {
   dots: true,
   infinite: false,

@@ -1,8 +1,8 @@
 import React from "react";
 
-import imageNews1 from "../../src/assets/image-news1.png";
-import imageNews2 from "../../src/assets/image-news2.png";
-import imageEvent from "../../src/assets/image-event.png";
+import imageNews1 from "../../../src/assets/image-news1.png";
+import imageNews2 from "../../../src/assets/image-news2.png";
+import imageEvent from "../../../src/assets/image-event.png";
 import { FiArrowUpRight } from "react-icons/fi";
 export const Info = () => {
   return (
