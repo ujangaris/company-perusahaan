@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import imageHero2 from "../../src/assets/hero-image2.png";
+import imageHero2 from "../../../src/assets/hero-image2.png";
 
 export const Benner = ({ title, sub_title, ...rest }) => {
   return (

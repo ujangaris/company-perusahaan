@@ -3,7 +3,7 @@ import { Client } from "./components/Client";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { AboutPage } from "./components/About/AboutPage";
+import { AboutPage } from "./components/pages/About/AboutPage";
 function App() {
   return (
     <>
