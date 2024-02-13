@@ -2,6 +2,10 @@ import React from "react";
 import { Benner } from "../../atoms/Benner";
 import { Link } from "react-router-dom";
 import imageTeam from "../../../../src/assets/image-team-about-page.png";
+import imageTeam1 from "../../../../src/assets/image-Zainur-Rahmad.png";
+import imageTeam2 from "../../../../src/assets/image-team-2.png";
+import imageTeam3 from "../../../../src/assets/image-team-3.png";
+import imageTeam4 from "../../../../src/assets/image-team-4.png";
 export const AboutPage = () => {
   return (
     <>
@@ -226,6 +230,64 @@ export const AboutPage = () => {
           </div>
         </div>
       </div>
+      <div className="our-team max-w-5xl px-7 mx-auto m-20">
+        <h1 className="text-5xl font-semibold text-[#927F7F]  mb-10">
+          Our Team
+        </h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  justify-center px-10 gap-x-4 gap-y-7">
+          <div className="w-full  img-team-1 rounded-t-xl shadow-lg bg-white">
+            <img
+              src={imageTeam1}
+              alt="Xainur Rahmad"
+              className="rounded-t-lg w-full"
+            />
+            <h1 className="px-2 text-xl font-bold text-slate-400 mt-3">CEO</h1>
+            <h1 className="px-2  text-xl font-bold text-black mt-3 mb-4">
+              Zainur Rahmad
+            </h1>
+          </div>
+          <div className="w-full  img-team-1 rounded-t-xl shadow-lg bg-white">
+            <img
+              src={imageTeam2}
+              alt="Xainur Rahmad"
+              className="rounded-t-lg w-full"
+            />
+            <h1 className="px-2 text-xl font-bold text-slate-400 mt-3">
+              Teach Head
+            </h1>
+            <h1 className="px-2  text-xl font-bold text-black mt-3 mb-4">
+              Bagus Iguna Putra
+            </h1>
+          </div>
+          <div className="w-full  img-team-1 rounded-t-xl shadow-lg bg-white">
+            <img
+              src={imageTeam3}
+              alt="Xainur Rahmad"
+              className="rounded-t-lg w-full"
+            />
+            <h1 className="px-2 text-xl font-bold text-slate-400 mt-3">
+              Tresury
+            </h1>
+            <h1 className="px-2  text-xl font-bold text-black mt-3 mb-4">
+              Nadia Ayu
+            </h1>
+          </div>
+          <div className="w-full  img-team-1 rounded-t-xl shadow-lg bg-white">
+            <img
+              src={imageTeam4}
+              alt="Xainur Rahmad"
+              className="rounded-t-lg w-full"
+            />
+            <h1 className="px-2 text-xl font-bold text-slate-400 mt-3">
+              Finace
+            </h1>
+            <h1 className="px-2  text-xl font-bold text-black mt-3 mb-4">
+              Anggita Triastuti
+            </h1>
+          </div>
+        </div>
+      </div>
+      {/* <div className="mt-20 h-[200px] bg-red-500"></div> */}
     </>
   );
 };
