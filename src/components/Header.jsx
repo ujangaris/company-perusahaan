@@ -81,12 +81,12 @@ export const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to="/contact"
                     className="text-base font-medium text-slate-500 hover:text-green-500"
                   >
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -190,12 +190,12 @@ export const Header = () => {
                       </a>
                     </li>
                     <li className="group">
-                      <a
-                        href="#"
+                      <Link
+                        to="/contact"
                         className="md:text-xs  text-dark   py-2 mx-8 lg:mx-0 flex group-hover:text-green-500"
                       >
                         Contact
-                      </a>
+                      </Link>
                     </li>
                     <li className="group">
                       <a

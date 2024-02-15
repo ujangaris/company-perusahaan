@@ -13,7 +13,7 @@ export const Hero = () => {
             <h1 className="lg:text-5xl xl:text-8xl md:text-6xl text-4xl text-white font-extrabold ">
               Lembaga Pelatihan Kerja
               <strong className="block font-extrabold text-[#29BF08]">
-                Binadinamitrarama
+                Binadinamitarama
               </strong>
             </h1>
 

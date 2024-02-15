@@ -4,6 +4,7 @@ import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AboutPage } from "./components/pages/About/AboutPage";
+import { ContactPage } from "./components/pages/Contact/ContactPage";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
         {/* Client section */}
         <Client />
