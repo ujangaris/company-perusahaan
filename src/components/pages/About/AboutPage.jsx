@@ -11,7 +11,7 @@ export const AboutPage = () => {
     <>
       <Benner title="About Us" sub_title="About Us" to="/about" />
       <div className="our-company flex flex-wrap h-[1204px] w-full bg-[#78D763] mx-auto ">
-        <div className=" lg:max-w-7xl lg:flex justify-items-stretch mx-auto lg:gap-x-40 mt-20">
+        <div className="px-7 lg:max-w-7xl lg:flex justify-items-stretch mx-auto lg:gap-x-40 mt-20">
           <div className="left mb-7 ">
             <h1 className="text-4xl md:text-6xl font-bold text-white lg:mb-9">
               About Our <br />
