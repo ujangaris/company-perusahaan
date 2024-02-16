@@ -5,6 +5,7 @@ import { Header } from "./components/Header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AboutPage } from "./components/pages/About/AboutPage";
 import { ContactPage } from "./components/pages/Contact/ContactPage";
+import { Whatsup } from "./components/atoms/Whatsup";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
       <BrowserRouter>
         <Header />
         {/* Akhir Navbar Section */}
+        <Whatsup />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutPage />} />
