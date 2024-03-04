@@ -10,26 +10,24 @@ export const Hero = () => {
 
         <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 flex lg:h-screen justify-center items-center lg:px-8">
           <div className="max-w-8xl  text-center ltr:sm:text-left rtl:sm:text-right">
-            <h1 className="lg:text-5xl xl:text-8xl md:text-6xl text-4xl text-white font-extrabold ">
-              Lembaga Pelatihan Kerja
-              <strong className="block font-extrabold text-[#29BF08]">
-                Binadinamitarama
-              </strong>
+            <h1 className="lg:text-5xl xl:text-8xl md:text-6xl text-4xl text-[#29BF08] font-extrabold ">
+              PT Bina{" "}
+              <span className="font-extrabold text-white">Dinamita</span> Rama
             </h1>
 
-            <p className="mt-4 font-bold text-base md:text-2xl mx-auto max-w-lg sm:text-xl/relaxed text-white uppercase">
-              Pt. Bina<span className="text-red-500">dinamita</span>rama <br />
-              Perusahaan Penempatan Pekerja Imigran Indonesia
+            <p className="mt-10 md:mt-4 font-bold text-base md:text-2xl mx-auto max-w-lg sm:text-xl/relaxed text-white  mb-10">
+              <span className="block mt-5">Perusahaan Penempatan Pekerja</span>
+              Migran Indonesia
             </p>
 
-            <div className="mt-8 flex flex-wrap md:gap-x-10 gap-x-4 gap-y-4 justify-center items-center text-center">
+            <div className="mt-14 md:mt-14 flex flex-wrap md:gap-x-10 gap-x-4 gap-y-4 justify-center items-center text-center">
               <a
                 href="#"
                 className="block   w-fit rounded-full bg-[#29BF08] px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
               >
                 Apply Now
               </a>
-              <div className="flex items-center group">
+              <div className="flex items-center group ">
                 <a
                   href="#"
                   className="block   bg-white rounded-full w-fit mx-2 size-10 sm:w-auto"

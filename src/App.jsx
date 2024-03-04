@@ -15,7 +15,7 @@ function App() {
         {/* Akhir Navbar Section */}
         <Whatsup />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" exact element={<Home />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>

@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 // import backgroundImage from "../../src/assets/Hero-image.png";
 import logo from "../../src/assets/logo-perusahaan.png";
 import { Link } from "react-router-dom";
-import { Country } from "./atoms/Country";
 
 export const Header = () => {
   // Hamburger
@@ -95,53 +94,43 @@ export const Header = () => {
               <div className="lg:block hidden">
                 <button
                   href="#"
-                  className="text-base text-green-600 font-bold hover:bg-rose-400 hover:text-sm hover:text-white hover:px-6 hover:py-2 rounded-full"
+                  className="text-base text-slate-900 font-bold hover:bg-rose-400 hover:text-sm hover:text-white hover:px-6 hover:py-2 rounded-full"
                 >
                   Login
                 </button>
               </div>
               <div className="lg:block hidden">
-                {/* <ul className="absolute hidden">
-                  <li className="block ">
-                    <a href="#" className=" ">
-                      <svg
-                        width="36"
-                        height="26"
-                        viewBox="0 0 36 26"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M0 4.059V8H5.628L0 4.059ZM4.664 26H13V20.163L4.664 26ZM23 20.164V26H31.335L23 20.164ZM0 18V21.941L5.63 18H0ZM31.337 0H23V5.837L31.337 0ZM36 21.942V18H30.369L36 21.942ZM36 8V4.059L30.371 8H36ZM13 0H4.664L13 5.837V0Z"
-                          fill="#00247D"
-                        />
-                        <path
-                          d="M25.1402 18L34.8522 24.801C35.3265 24.3124 35.6674 23.7101 35.8422 23.052L28.6272 18H25.1402ZM13.0002 18H10.8592L1.14823 24.8C1.66923 25.33 2.33723 25.709 3.08623 25.885L13.0002 18.943V18ZM23.0002 7.99999H25.1412L34.8522 1.19999C34.3223 0.662265 33.6506 0.286017 32.9152 0.11499L23.0002 7.05699V7.99999ZM10.8592 7.99999L1.14823 1.19999C0.67418 1.68896 0.333041 2.29103 0.157227 2.94899L7.37223 7.99999H10.8592Z"
-                          fill="#CF1B2B"
-                        />
-                        <path
-                          d="M36 16H21V26H23V20.164L31.335 26H32C32.5313 26.0001 33.0572 25.8941 33.5469 25.6882C34.0367 25.4823 34.4804 25.1807 34.852 24.801L25.14 18H28.627L35.842 23.052C35.935 22.715 36 22.366 36 22V21.942L30.369 18H36V16ZM0 16V18H5.63L0 21.941V22C0 23.091 0.439 24.078 1.148 24.8L10.859 18H13V18.943L3.086 25.884C3.38 25.954 3.684 26 4 26H4.664L13 20.163V26H15V16H0ZM36 4C36.0006 2.95198 35.5881 1.94595 34.852 1.2L25.141 8H23V7.057L32.915 0.115C32.6155 0.0415274 32.3084 0.00293805 32 3.78378e-07H31.337L23 5.837V3.78378e-07H21V10H36V8H30.371L36 4.059V4ZM13 3.78378e-07V5.837L4.664 3.78378e-07H4C3.46862 -0.000231172 2.94257 0.105813 2.45278 0.311895C1.96299 0.517977 1.51936 0.819934 1.148 1.2L10.859 8H7.372L0.157 2.949C0.0577802 3.29071 0.00497341 3.64421 0 4L0 4.059L5.628 8H0V10H15V3.78378e-07H13Z"
-                          fill="#EEEEEE"
-                        />
-                        <path
-                          d="M21 10V0H15V10H0V16H15V26H21V16H36V10H21Z"
-                          fill="#CF1B2B"
-                        />
-                      </svg>
-                    </a>
-                  </li>
-                  <li className="block">
-                    <a href="#" className=" ">
-                      Text
-                    </a>
-                  </li>
-                </ul> */}
-                <Country />
+                <a href="#" className=" ">
+                  <svg
+                    width="36"
+                    height="26"
+                    viewBox="0 0 36 26"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 4.059V8H5.628L0 4.059ZM4.664 26H13V20.163L4.664 26ZM23 20.164V26H31.335L23 20.164ZM0 18V21.941L5.63 18H0ZM31.337 0H23V5.837L31.337 0ZM36 21.942V18H30.369L36 21.942ZM36 8V4.059L30.371 8H36ZM13 0H4.664L13 5.837V0Z"
+                      fill="#00247D"
+                    />
+                    <path
+                      d="M25.1402 18L34.8522 24.801C35.3265 24.3124 35.6674 23.7101 35.8422 23.052L28.6272 18H25.1402ZM13.0002 18H10.8592L1.14823 24.8C1.66923 25.33 2.33723 25.709 3.08623 25.885L13.0002 18.943V18ZM23.0002 7.99999H25.1412L34.8522 1.19999C34.3223 0.662265 33.6506 0.286017 32.9152 0.11499L23.0002 7.05699V7.99999ZM10.8592 7.99999L1.14823 1.19999C0.67418 1.68896 0.333041 2.29103 0.157227 2.94899L7.37223 7.99999H10.8592Z"
+                      fill="#CF1B2B"
+                    />
+                    <path
+                      d="M36 16H21V26H23V20.164L31.335 26H32C32.5313 26.0001 33.0572 25.8941 33.5469 25.6882C34.0367 25.4823 34.4804 25.1807 34.852 24.801L25.14 18H28.627L35.842 23.052C35.935 22.715 36 22.366 36 22V21.942L30.369 18H36V16ZM0 16V18H5.63L0 21.941V22C0 23.091 0.439 24.078 1.148 24.8L10.859 18H13V18.943L3.086 25.884C3.38 25.954 3.684 26 4 26H4.664L13 20.163V26H15V16H0ZM36 4C36.0006 2.95198 35.5881 1.94595 34.852 1.2L25.141 8H23V7.057L32.915 0.115C32.6155 0.0415274 32.3084 0.00293805 32 3.78378e-07H31.337L23 5.837V3.78378e-07H21V10H36V8H30.371L36 4.059V4ZM13 3.78378e-07V5.837L4.664 3.78378e-07H4C3.46862 -0.000231172 2.94257 0.105813 2.45278 0.311895C1.96299 0.517977 1.51936 0.819934 1.148 1.2L10.859 8H7.372L0.157 2.949C0.0577802 3.29071 0.00497341 3.64421 0 4L0 4.059L5.628 8H0V10H15V3.78378e-07H13Z"
+                      fill="#EEEEEE"
+                    />
+                    <path
+                      d="M21 10V0H15V10H0V16H15V26H21V16H36V10H21Z"
+                      fill="#CF1B2B"
+                    />
+                  </svg>
+                </a>
               </div>
               <div className="group lg:block hidden">
                 <a
                   href="#"
-                  className="md:inline-block md:w-auto text-sm  bg-green-500 rounded-full text-white py-2 px-8 mx-2 flex items-center justify-center group-hover:text-white group-hover:bg-violet-500"
+                  className="md:inline-block md:w-auto sm:text-sm md:text-base lg:text-lg bg-green-500 rounded-full text-white py-2 px-8 mx-2 flex items-center justify-center group-hover:text-white group-hover:bg-violet-500"
                 >
                   Submit CV
                 </a>

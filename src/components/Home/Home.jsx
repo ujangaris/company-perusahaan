@@ -1,7 +1,7 @@
 import React from "react";
 import { Hero } from "./Hero";
-import { Destination } from "./Destination";
-import { Company } from "./Company";
+import { Destination2 } from "./Destination2";
+import { Company2 } from "./Company2";
 import { About } from "./About";
 import { We_do } from "./We_do";
 import { Info } from "./Info";
@@ -12,10 +12,10 @@ export const Home = () => {
       <Hero />
       {/* akhir Hero section */}
       {/* Destination section */}
-      <Destination />
+      <Destination2 />
       {/* akhir Destination section */}
       {/* Company section */}
-      <Company />
+      <Company2 />
       {/* Akhir Company section */}
       {/* About section */}
       <About />
