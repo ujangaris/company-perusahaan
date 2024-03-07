@@ -3,7 +3,7 @@ import flagIndo from "../../assets/flag-indonesia.png";
 import flagEng from "../../assets/flag-united-kingdom.png";
 
 export const Country = () => {
-  const [selectedCountry, setSelectedCountry] = useState("Indonesia"); // Set default flag ke England
+  const [selectedCountry, setSelectedCountry] = useState("England"); // Set default flag ke England
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   function updateCountry(countryName) {
@@ -36,18 +36,16 @@ export const Country = () => {
                 />
               )}
               <svg
-                className="ml-1"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
+                className=" h-5 w-5"
                 xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
               >
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M6 7L12 13L18 7L20 9L12 17L4 9L6 7Z"
-                  fill="#545454"
+                  fillRule="evenodd"
+                  d="M10 12a1 1 0 0 1-.707-.293l-3-3a1 1 0 0 1 1.414-1.414L10 10.586l2.293-2.293a1 1 0 0 1 1.414 1.414l-3 3a1 1 0 0 1-.707.293z"
+                  clipRule="evenodd"
                 />
               </svg>
             </button>
@@ -71,9 +69,7 @@ export const Country = () => {
                   alt="Indonesia Flag"
                   className="-ml-2 w-8 h-6 mr-2"
                 />
-                <span className="text-base hover:text-green-500 hover:font-bold">
-                  Indonesia
-                </span>
+                Indonesia
               </button>
               <button
                 className="w-full flex justify-center items-center px-8 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none"
@@ -84,9 +80,7 @@ export const Country = () => {
                   alt="England Flag"
                   className="-ml-2 w-8 h-6 mr-2"
                 />
-                <span className="text-base hover:text-green-500 hover:font-bold">
-                  Inggris
-                </span>
+                England
               </button>
             </div>
           </div>

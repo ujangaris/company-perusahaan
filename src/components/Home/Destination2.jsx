@@ -59,11 +59,11 @@ export const Destination2 = () => {
           <div className="w-full">
             <div className="max-w-xl mx-auto text-center mb-10 ">
               <h4 className="font-bold text-3xl md:text-5xl text-[#927F7F] pt-12 md:pt-20">
-                Destination
+                Negara Tujuan
               </h4>
               <p className="pt-5 text-xs md:text-base text-[#717171]">
-                Location of our company’s partner in human resource
-                distribution.
+                Letak mitra yang bekerja sama dengan perusahaan kami dalam
+                kegiatan penyaluran tenaga kerja .
               </p>
             </div>
           </div>
