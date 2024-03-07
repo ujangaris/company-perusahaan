@@ -93,14 +93,6 @@ export const Header = () => {
             </div>
             <div className="flex items-center  justify-center gap-x-4  ">
               <div className="lg:block hidden">
-                <button
-                  href="#"
-                  className="text-base text-green-600 font-bold hover:bg-rose-400 hover:text-sm hover:text-white hover:px-6 hover:py-2 rounded-full"
-                >
-                  Login
-                </button>
-              </div>
-              <div className="lg:block hidden">
                 {/* <ul className="absolute hidden">
                   <li className="block ">
                     <a href="#" className=" ">
@@ -138,6 +130,15 @@ export const Header = () => {
                 </ul> */}
                 <Country />
               </div>
+              <div className="lg:block hidden">
+                <button
+                  href="#"
+                  className="text-base text-green-600 font-bold hover:bg-rose-400 hover:text-sm hover:text-white hover:px-6 hover:py-2 rounded-full"
+                >
+                  Login
+                </button>
+              </div>
+
               <div className="group lg:block hidden">
                 <a
                   href="#"

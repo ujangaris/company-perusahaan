@@ -8,4 +8,5 @@ export default defineConfig({
     // setup project berjalan di port 3000
     port: 3000,
   },
+  
 });

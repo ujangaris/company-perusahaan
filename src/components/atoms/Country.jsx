@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import flagIndo from "../../assets/flag-indonesia.png";
-import flagEng from "../../assets/flag-england.png";
+import flagEng from "../../assets/flag-united-kingdom.png";
 
 export const Country = () => {
   const [selectedCountry, setSelectedCountry] = useState("England"); // Set default flag ke England
