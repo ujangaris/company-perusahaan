@@ -52,7 +52,7 @@ export const Header = () => {
                 <li>
                   <Link
                     to="/"
-                    className="lg:text-base font-medium text-slate-900 hover:text-green-500 md:text-sm"
+                    className="lg:text-base font-bold text-slate-900 hover:text-green-500 md:text-sm"
                   >
                     Beranda
                   </Link>
@@ -60,7 +60,7 @@ export const Header = () => {
                 <li className="text-center">
                   <Link
                     to="/about"
-                    className="lg:text-base font-medium text-slate-500 hover:text-green-500 md:text-sm text-center"
+                    className="lg:text-base font-medium text-slate-500 hover:text-green-500 md:text-sm text-center hover:font-bold"
                   >
                     Tentang Kami
                   </Link>
@@ -68,7 +68,7 @@ export const Header = () => {
                 <li>
                   <a
                     href="#"
-                    className="lg:text-base font-medium text-slate-500 hover:text-green-500 md:text-sm"
+                    className="lg:text-base font-medium text-slate-500 hover:text-green-500 md:text-sm hover:font-bold"
                   >
                     Lowongan
                   </a>
@@ -76,7 +76,7 @@ export const Header = () => {
                 <li>
                   <a
                     href="#"
-                    className="lg:text-base font-medium text-slate-500 hover:text-green-500 md:text-sm"
+                    className="lg:text-base font-medium text-slate-500 hover:text-green-500 md:text-sm hover:font-bold"
                   >
                     Info
                   </a>
@@ -84,7 +84,7 @@ export const Header = () => {
                 <li>
                   <Link
                     to="/contact"
-                    className="lg:text-base font-medium text-slate-500 hover:text-green-500 md:text-sm"
+                    className="lg:text-base font-medium text-slate-500 hover:text-green-500 md:text-sm hover:font-bold"
                   >
                     Kontak
                   </Link>
