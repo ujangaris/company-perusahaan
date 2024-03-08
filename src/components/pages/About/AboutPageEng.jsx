@@ -9,21 +9,20 @@ import imageTeam4 from "../../../../src/assets/image-team-4.png";
 export const AboutPage = () => {
   return (
     <>
-      <Benner title="Tentang Kami" sub_title="Tentang Kami" to="/about" />
+      <Benner title="About Us" sub_title="About Us" to="/about" />
       <div className="our-company flex flex-wrap h-[900px] md:h-[1004px] w-full bg-[#78D763] mx-auto ">
         <div className="px-7 lg:max-w-7xl lg:flex justify-items-stretch mx-auto lg:gap-x-40 mt-20">
           <div className="left mb-7 ">
             <h1 className="text-4xl md:text-6xl font-bold text-white lg:mb-9">
-              Tentang <br />
-              Kami
+              About Our <br />
+              Company
             </h1>
             <Link type="button" className="flex items-center">
               <p className="text-[15px] lg:text-[20px] font-bold text-white">
-                Bergabung
+                Join our team{" "}
               </p>
               <span className="text-xs">
                 <svg
-                  className="mt-2"
                   width="49"
                   height="49"
                   viewBox="0 0 49 49"
@@ -49,51 +48,48 @@ export const AboutPage = () => {
           </div>
           <div className="right lg:max-w-md">
             <p className="text-base font-medium text-white mb-7">
-              &nbsp;&nbsp;&nbsp; Perusahaan kami didirikan dengan tekad untuk
-              melatih dan menghasilkan sumber daya manusia yang berkualitas. Hal
-              ini bertujuan untuk memenuhi kebutuhan tenaga kerja di kancah
-              internasional sesuai dengan kualifikasi yang ada. Selain
-              menyalurkan tenaga kerja secara global, perusahaan kami juga fokus
-              dalam membantu perbaikan kehidupan masyarakat melalui pelayanan
-              pemberian tenaga kerja.
+              &nbsp;&nbsp;&nbsp; Lorem Ipsum has been the industry's standard
+              dummy text ever since the 1500s, when an unknown printer took a
+              galley of type and scrambled it to make a type specimen book. It
+              has survived not only five centuries, but also the leap into
+              electronic typesetting
             </p>
             <p className="text-base font-medium text-white">
-              &nbsp;&nbsp;&nbsp; Kami selalu berkomitmen untuk mempertahankan
-              kualitas rekrutmen sumber daya manusia yang berdasarkan nilai
-              profesionalisme. Dedikasi yang kami berikan melalui peningkatan
-              dan pengembangan sumber daya adalah untuk memberikan sumber daya
-              manusia yang terlatih dan kompeten. Diharapkan dengan semangat dan
-              usaha yang baik, kami dapat memberikan pelayanan yang terbaik dan
-              memuaskan untuk klien kami.
+              &nbsp;&nbsp;&nbsp; Lorem Ipsum has been the industry's standard
+              dummy text ever since the 1500s, when an unknown printer took a
+              galley of type and scrambled it to make a type specimen book. It
+              has survived not only five centuries, but also the leap into
+              electronicty pesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
             </p>
           </div>
         </div>
-        <div className=" px-7 lg:px-20 lg:max-w-6xl justify-center mx-auto">
+        <div className=" px-7 lg:px-20 lg:max-w-6xl justify-center mx-auto -mt-40">
           <img
             src={imageTeam}
             alt="image-team"
-            className="w-[1235px] h-[250px] md:h-[450px] mx-auto mt-10"
+            className="w-[1235px] h-[250px] md:h-[450px] mx-auto"
           />
         </div>
       </div>
       <div className="service px-7  max-w-5xl mx-auto">
-        <h1 className=" text-2xl md:text-3xl font-bold text-[#29BF08] mt-36 md:mt-10 ">
-          Kami membuka kesempatan <br /> untuk berkolaborasi dengan berbagai
-          bidang
+        <h1 className=" text-xl md:text-3xl font-semibold text-[#29BF08] mt-10">
+          We are ready to cooperate and become your patner
         </h1>
         <div className=" flex flex-wrap w-full mx-auto  lg:mt-10 md:mt-5 md:justify-between">
           <div className="scope-left lg:max-w-md ">
             <p className="text-sm font-bold text-[#8C8B92] mt-3 lg:mt-10">
-              &nbsp;&nbsp;&nbsp;Perusahaan kami selalu berusaha untuk memberikan
-              pelayanan terbaik melalui adanya kerjasama berkelanjutan dengan
-              lembaga pelatihan yang tersebar di seluruh Indonesia. Disamping
-              itu, Indonesia memiliki sumber daya yang sangat beragam sehingga
-              pekerja kami memiliki kesempatan dan kemampuan untuk mempelajari
-              dan mendalami berbagai bidang. Kedua hal ini berkontribusi secara
-              signifikan untuk memenuhi permintaan atas kebutuhan tenaga kerja
-              di level internasional.
+              &nbsp;&nbsp;Scope Our Service Lorem Ipsum has been the industry's
+              standard dummy text ever since the 1500s, when an unknown printer
+              took a galley of type and scrambled it to make a type specimen
+              book. It has survived not only five centuries, but also the leap
+              into electronic typesetting, remaining essentially unchanged. It
+              was popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
             </p>
-            {/* <p className="text-sm font-bold text-[#8C8B92] mt-10">
+            <p className="text-sm font-bold text-[#8C8B92] mt-10">
               &nbsp;&nbsp; Lorem Ipsum has been the industry's standard dummy
               text ever since the 1500s, when an unknown printer took a galley
               of type and scrambled it to make a type specimen book. It has
@@ -103,29 +99,7 @@ export const AboutPage = () => {
               containing Lorem Ipsum passages, and more recently with desktop
               publishing software like Aldus PageMaker including versions of
               Lorem Ipsum.
-            </p> */}
-
-            <ul className="mt-10">
-              <li className="text-sm font-bold text-[#8C8B92]">
-                ● Konstruksi{" "}
-              </li>
-              <li className="text-sm font-bold text-[#8C8B92]">
-                ● Industri manufaktur{" "}
-              </li>
-              <li className="text-sm font-bold text-[#8C8B92]">
-                ● Industri perhutanan dan perkebunan{" "}
-              </li>
-              <li className="text-sm font-bold text-[#8C8B92]">
-                ● Industri perikanan{" "}
-              </li>
-              <li className="text-sm font-bold text-[#8C8B92]">
-                ● Industri konsumsi{" "}
-              </li>
-              <li className="text-sm font-bold text-[#8C8B92]">● Pelayanan</li>
-              <li className="text-sm font-bold text-[#8C8B92]">● Perawat </li>
-              <li className="text-sm font-bold text-[#8C8B92]">● Teknik </li>
-              <li className="text-sm font-bold text-[#8C8B92]">● Dsb</li>
-            </ul>
+            </p>
           </div>
           <div className="scope-right mb-10">
             <div className="grid grid-cols-2 card mx-auto justify-center items-center bg-white rounded-lg shadow-lg md:w-[700px] lg:w-[400px]  w-[300px] h-[300px] mt-10 md:mt-10">
