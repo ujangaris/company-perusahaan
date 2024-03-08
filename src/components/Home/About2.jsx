@@ -2,7 +2,7 @@ import React from "react";
 import imageAbout1 from "../../../src/assets/image-about-1.png";
 import imageAbout2 from "../../../src/assets/image-about-2.png";
 import imageAbout3 from "../../../src/assets/image-about-3.png";
-export const About = () => {
+export const About2 = () => {
   return (
     <>
       <div className="about lg:mb-52 ">
@@ -12,7 +12,7 @@ export const About = () => {
               Tentang Kami
             </h4>
             <p className="pt-5  md:text-base text-xs text-[#717171] px-10 mb">
-              Kami telah bekerja dengan 200+ klien
+              We have been working with some Fortune 500+ clients
             </p>
           </div>
         </div>
