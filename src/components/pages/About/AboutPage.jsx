@@ -6,11 +6,12 @@ import imageTeam1 from "../../../../src/assets/image-Zainur-Rahmad.png";
 import imageTeam2 from "../../../../src/assets/image-team-2.png";
 import imageTeam3 from "../../../../src/assets/image-team-3.png";
 import imageTeam4 from "../../../../src/assets/image-team-4.png";
+import { DirectorsMessage } from "./DirectorsMessage";
 export const AboutPage = () => {
   return (
     <>
       <Benner title="Tentang Kami" sub_title="Tentang Kami" to="/about" />
-      <div className="our-company flex flex-wrap h-[900px] md:h-[1004px] w-full bg-[#78D763] mx-auto ">
+      <div className="our-company container flex flex-wrap  w-full bg-[#78D763] mx-auto ">
         <div className="px-7 lg:max-w-7xl lg:flex justify-items-stretch mx-auto lg:gap-x-40 mt-20">
           <div className="left mb-7 ">
             <h1 className="text-4xl md:text-6xl font-bold text-white lg:mb-9">
@@ -72,10 +73,13 @@ export const AboutPage = () => {
           <img
             src={imageTeam}
             alt="image-team"
-            className="w-[1235px] h-[250px] md:h-[450px] mx-auto mt-10"
+            className="w-[1235px] h-[250px] md:h-[450px] mx-auto mt-10 mb-10"
           />
         </div>
       </div>
+      {/* directors message */}
+      <DirectorsMessage />
+      {/* akhir directors message */}
       <div className="service px-7  max-w-5xl mx-auto">
         <h1 className=" text-2xl md:text-3xl font-bold text-[#29BF08] mt-36 md:mt-10 ">
           Kami membuka kesempatan <br /> untuk berkolaborasi dengan berbagai
